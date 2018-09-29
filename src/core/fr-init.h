@@ -72,6 +72,7 @@ void         sort_mime_types_by_extension            (int           *a);
 void         sort_mime_types_by_description          (int           *a);
 void         initialize_data                         (void);
 void         release_data                            (void);
+gboolean     force_use_unar                          (void);
 
 G_END_DECLS
 
